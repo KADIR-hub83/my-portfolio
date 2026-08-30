@@ -1,0 +1,83 @@
+import { words } from '../constants/index.js';
+import Button from '../components/Button';
+import HeroExperience from '../components/HeroModels/HeroExperience';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import AnimatedCounter from '../components/AnimatedCounter';
+
+
+const Hero = () => {
+  useGSAP(() =>{
+     gsap.fromTo('.hero-text h1' ,
+      {
+       y: 50,
+       opacity:0
+      },
+      {
+        y:0,
+        opacity:1,
+        stagger:0.2,
+        duration:1,
+        ease: "power2.inOut"
+      }
+     )
+  })
+  return (
+ <section id="hero" className="relative overflow-hidden">
+      <div className="absolute top-0 left-0 z-10">
+       <img src={import.meta.env.BASE_URL + "images/bg.png"} alt="Background image" />
+
+    
+      </div>
+
+      <div  className="hero-layout">
+        {/* hero content */}
+    <header className="flex flex-col justify-center md:w-full  w-screen md:px-20 px-5">
+        <div className="flex flex-col gap-7">
+               
+            <div className="hero-text">
+                <h1>
+                    Shapping
+                  <span className="slide">
+  <span className="wrapper">
+    {words.map((word) => (
+      <span key={word.text} className="flex items-center md:gap-3 gap-1 pb-2">
+        <img
+          src={word.imgPath}
+          alt={word.text}
+          className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+        />
+        {word.text}
+      </span>
+    ))}
+  </span>
+</span>
+                </h1>
+                <h1>into real Project</h1>
+                <h1>that deliver results</h1>
+
+               </div>
+               <p className='text-white-50 max-md:text-xl text-lg w-[80%] realtive z-10'>
+                Hi, I`m Kadir, a devloper based in India with a passion for creating innvation ideas into a code.
+               </p>
+               <Button className="md:w-60 md:h-10 w-55  h-20" id="button" text="See My Work" />
+            </div>
+
+        </header>
+        {/* hero 3d model */}
+        <figure className='hero-3d-layout '
+          style={{
+    backgroundImage: `url(${import.meta.env.BASE_URL}images/bg.png)`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}>
+           <HeroExperience/>
+        </figure>
+
+      </div>
+      <AnimatedCounter/>
+ </section>
+  )
+}
+
+export default Hero
