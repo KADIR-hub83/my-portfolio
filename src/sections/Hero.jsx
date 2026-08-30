@@ -58,7 +58,9 @@ const Hero = () => {
 
                </div>
                <p className='text-white-50 max-md:text-xl text-lg w-[80%] realtive z-10'>
-                Hi, I`m Kadir, a devloper based in India with a passion for creating innvation ideas into a code.
+                I'm Abdul Kadir, a Web Developer specializing in React,
+                <br/>
+  Next.js, frontend development and modern web applications.
                </p>
                <Button className="md:w-60 md:h-10 w-55  h-20" id="button" text="See My Work" />
             </div>
