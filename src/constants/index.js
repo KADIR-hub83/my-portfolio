@@ -19,10 +19,10 @@ export const words = [
 
 // ------------- COUNTER ITEMS -------------
 export const counterItems = [
-  { value: 2, suffix: "", label: "years of experience" },
-  { value: 40, suffix: "+", label: "projects completed" },
-  { value: 10, suffix: "+", label: "happy clients" },
-  { value: 13, suffix: "+", label: "clients reviews" },
+  { value: 4, suffix: "", label: "years of experience" },
+  { value: 80, suffix: "+", label: "projects completed" },
+  { value: 75, suffix: "+", label: "happy clients" },
+  { value: 65, suffix: "+", label: "clients reviews" },
 ];
 
 // ------------- SKILLS -------------
