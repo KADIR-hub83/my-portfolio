@@ -150,38 +150,55 @@ export const testimonial = [
   {
     name: "Aarav Sharma",
     mention: "@aarav.codes",
-    review: "Kadir did an amazing job! The UI was clean, fast, and extremely professional. Highly recommended for modern web design.",
+    review:
+      "Abdul Kadir did an excellent job designing and developing my website. The UI was clean, fast, responsive, and highly professional. I would highly recommend him for modern web design and frontend development projects.",
     imgPath: base + "images/client1.png",
+    alt: "Aarav Sharma client testimonial for Abdul Kadir web development services",
   },
+
   {
     name: "Rohan Mehta",
     mention: "@rohan.tech",
-    review: "Very impressive work! Perfect communication and delivered exactly what I wanted. Will collaborate again soon.",
+    review:
+      "Working with Abdul Kadir was a great experience. Communication was clear, the development process was smooth, and the final website matched my requirements perfectly. I would definitely work with him again for future web development projects.",
     imgPath: base + "images/client2.png",
+    alt: "Rohan Mehta review of Abdul Kadir web developer",
   },
+
   {
     name: "Sahil Khan",
     mention: "@sahil.web",
-    review: "He built my website exactly how I imagined. Smooth animations, perfect color theme, and mobile friendly.",
+    review:
+      "Abdul Kadir built my website exactly the way I imagined. The design was modern, the animations were smooth, the color theme looked professional, and the entire website was fully responsive and mobile-friendly.",
     imgPath: base + "images/client3.png",
+    alt: "Sahil Khan testimonial for Abdul Kadir responsive website development",
   },
+
   {
     name: "Adarsh Gupta",
-    mention: "@priyastyles",
-    review: "Super talented developer! I loved the attention to detail. My portfolio looks stunning now.",
+    mention: "@adash.tech",
+    review:
+      "Abdul Kadir is a talented web developer with great attention to detail. He created a modern, professional, and visually appealing portfolio website with clean layouts and a smooth user experience.",
     imgPath: base + "images/client4.png",
+    alt: "Adarsh Gupta client feedback for Abdul Kadir portfolio website development",
   },
+
   {
     name: "Vikram Singh",
     mention: "@vikram.designs",
-    review: "A truly skilled creator. Delivered on time, with clean code and amazing design sense.",
+    review:
+      "Abdul Kadir delivered the project on time with clean code, excellent design quality, and strong attention to performance. The website was responsive, user-friendly, and professionally developed.",
     imgPath: base + "images/client5.png",
+    alt: "Vikram Singh review for Abdul Kadir professional web development",
   },
+
   {
     name: "Sidd Verma",
-    mention: "@neha.creates",
-    review: "Loved the overall experience! Great support, beautiful layout, and very user-friendly design also good in everthing.",
+    mention: "@sidd.verma",
+    review:
+      "I had a great experience working with Abdul Kadir. The website had a beautiful layout, responsive design, smooth performance, and an easy-to-use interface. His support and communication throughout the project were excellent.",
     imgPath: base + "images/client6.png",
+    alt: "Sidd Verma testimonial for Abdul Kadir responsive web design services",
   },
 ];
 

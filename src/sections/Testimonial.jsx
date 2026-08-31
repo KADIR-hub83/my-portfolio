@@ -7,10 +7,18 @@ const Testimonial = () => {
     <section id="testimonials" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         
-        <TitleHeader 
-          title="What People Say About Me?" 
-          sub="Client Feedback Highlights" 
-        />
+  <TitleHeader
+    title="What Clients Say About Abdul Kadir"
+    sub="Client Reviews, Development Testimonials"
+    id="testimonials-heading"
+  />
+
+<p className="text-white-50 md:text-sm mt-5 text-center w-[80%] mx-auto">
+  Read genuine client feedback and testimonials about Abdul Kadir's
+  web development services, including React development, Next.js
+  development, frontend development, responsive web design, modern
+  UI/UX, and full-stack web application development.
+</p>
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
           

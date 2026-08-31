@@ -73,11 +73,14 @@ const ShowCaseSection = () => {
 
                         <div className="text-content">
                             <h2>
-                                I'm Kadir 
+                                I'm Abdul Kadir - Web Developer & Full Stack Developer
                             </h2>
-                            <p className="text-white-50 md:text-sm">
-                                A developer based in India with a deep passion for transforming innovative ideas into meaningful digital experiences. I enjoy building clean, efficient, and scalable applications that not only look great but also solve real problems. With a focus on modern UI/UX, smooth performance, and attention to detail, I turn concepts into high-quality code that feels intuitive and effortless for users. Every project I work on is driven by creativity, curiosity, and the desire to constantly learn and improve. My goal is to create products that leave a lasting impression and make technology simpler, smarter, and more accessible for everyone.
-                            </p>
+                              <p className="text-white-50 md:text-sm">
+    I'm Abdul Kadir, a Web Developer based in India specializing in
+    React, Next.js, JavaScript, frontend development, full-stack
+    development, Node.js, modern UI/UX, and high-performance web
+    applications.
+  </p>
                         </div>
                     </div>
 
