@@ -52,20 +52,20 @@ const ShowCaseSection = () => {
     
     {/* Desktop Image */}
     <img
-      src={base + "images/kmd.jpg"}
+      src={base + "images/kadir.png"}
       className="h-full w-full object-cover rounded-2xl max-xl:hidden p-10"
       alt="First Project"
     />
 
     {/* Mobile Image */}
     <img
-      src={base + "images/klg2.jpeg"}
+      src={base + "images/kadir.png"}
       className="h-full w-full object-cover rounded-2xl max-xl:block p-5"
       alt="First Project"
     />
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/20 rounded-2xl"></div>
+    {/* <div className="absolute inset-0 bg-black/20 rounded-2xl"></div> */}
 </div>
 
 
